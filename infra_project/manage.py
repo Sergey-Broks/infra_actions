@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+print('echo')
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'infra_project.settings')
